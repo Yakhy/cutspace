@@ -1,0 +1,45 @@
+@import 'fonts';
+
+$black: #000000;
+$dark: #0F0F0F;
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+ box-sizing: inherit;
+}
+
+body{
+  background-color: $dark;
+    @extend %sans;
+    color: #fff;
+}
+.container{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.buttons{
+    cursor: pointer;
+}
+
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  padding: 0;
+  margin: 0;  
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

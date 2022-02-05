@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Sans';
+    font-weight: 400;
+    src: url(../fonts/PTSans-Regular.woff2) format('woff2'),
+         url(../fonts/PTSans-Regular.woff) format('woff');
+ }
+ 
+ %sans{
+    font-family: "Sans";
+    font-weight: 400;
+ }
+
+
+
+ @font-face {
+    font-family: 'Post';
+    font-weight: 700;
+    src: url(../fonts/PostNoBillsJaffna-Bold.woff2) format('woff2'),
+         url(../fonts/PostNoBillsJaffna-Bold.woff) format('woff');
+ }
+ 
+ %post{
+    font-family: "Post";
+    font-weight: 700;
+ }
+
+
+ @font-face {
+    font-family: 'Play';
+    font-weight: 700;
+    src: url(../fonts/PlayfairDisplay-Bold.woff2) format('woff2'),
+         url(../fonts/PlayfairDisplay-Bold.woff) format('woff');
+ }
+ 
+ %play{
+    font-family: "Play";
+    font-weight: 700;
+ }
+
+ @font-face {
+    font-family: 'PlayRegular';
+    font-weight: 400;
+    src: url(../fonts/PlayfairDisplay-Regular.woff2) format('woff2'),
+         url(../fonts/PlayfairDisplay-Regular.woff) format('woff');
+ }
+ 
+ %playRegular{
+    font-family: "PlayRegular";
+    font-weight: 400;
+ }
